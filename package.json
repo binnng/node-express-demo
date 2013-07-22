@@ -1,0 +1,21 @@
+{
+  "name": "node-express-demo",
+  "description": "A demo of express",
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "author": "binnng <imbinnng@gmail.com> (http://laopopo.me)",
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.2.x"
+  },
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "stylus": "latest",
+    "coffee-script": "latest"
+  }
+}
