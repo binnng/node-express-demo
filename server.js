@@ -9,11 +9,7 @@ app.configure(function() {
 var router = JSON.parse(fs.readFileSync('config/router.json', 'utf-8'));
 
 app.get('*', function(req, res) {
-  if (router[req.url]) {
-  	res.render(router[req.url]);
-  } else {
-  	res.render('404');
-  }
+  res.render(router[req.url] || '404');
 });
 
 app.listen('3000');
