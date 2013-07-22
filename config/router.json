@@ -1,0 +1,6 @@
+{
+	"/": "index",
+	"/about": "about",
+	"/help": "help",
+	"*": "404"
+}
